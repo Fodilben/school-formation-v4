@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./assets/Roboto/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+/* ========================== */
+/* ========-global-========== */
+/* ========================== */
+.section-container {
+  padding: 0px 40px;
+}
+.btn {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  color: white;
+  background-color: #222222;
+  border-radius: 8px;
+  box-shadow: 0px 0.7065919983928324px 0.7065919983928324px -0.625px rgba(0, 0, 0, 0.15),
+    0px 1.8065619053231785px 1.8065619053231785px -1.25px rgba(0, 0, 0, 0.14398),
+    0px 3.6217592146567767px 3.6217592146567767px -1.875px rgba(0, 0, 0, 0.13793),
+    0px 6.8655999097303715px 6.8655999097303715px -2.5px rgba(0, 0, 0, 0.12711),
+    0px 13.646761411524492px 13.646761411524492px -3.125px rgba(0, 0, 0, 0.10451),
+    0px 30px 30px -3.75px rgba(0, 0, 0, 0.05);
+}
+
+/* ========================== */
+/* ========-course-detail-========== */
+/* ========================== */
+.course-detail .course-hero {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.course-detail .main-img {
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+  min-width: 50%;
+}
+.course-detail .main-img img {
+  height: 100%;
+  width: 100%;
+}
+.course-detail .course-hero .content {
+  width: 50%;
+  max-width: 50%;
+  padding: 0px 50px;
+}
+.course-detail .course-hero .content h2 {
+  padding-top: 100px;
+  width: 400px;
+  height: auto;
+  overflow: visible;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: #333333;
+  font-size: 38px;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+.course-detail .course-hero .content h4 {
+  margin: 0;
+  padding-top: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: #1f1f1f;
+  font-size: 20px;
+  letter-spacing: -0.1px;
+  line-height: 28px;
+  text-align: left;
+}
+.course-detail .course-hero .infromation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.course-detail .course-hero .content p {
+  margin: 8px 0px;
+  max-width: 90%;
+  /* word-wrap: break-word;
+  word-break: break-word; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  color: #373a3c;
+  letter-spacing: 0em;
+}
+
+.course-detail .btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+  align-content: center;
+}
+.course-detail .btn-container span {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: #333333;
+  font-size: 28px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* ========================== */
+/* ========-details-========== */
+/* ========================== */
+.details {
+  padding: 30px 150px;
+}
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.details-content {
+  max-width: 483px;
+}
+.details-container .img-container {
+  height: 340px;
+  width: 100%;
+  max-width: 40%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.details-container .img-container img {
+  background-size: contain;
+  height: 340px;
+  width: 100%;
+}
+
+.details-container h2 {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: #333333;
+  font-size: 40px;
+  letter-spacing: -2px;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+.details-container p {
+  width: 483px;
+  height: auto;
+
+  word-wrap: break-word;
+  word-break: break-word;
+
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: #888888;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+}
+.details hr {
+  border-top: solid 2px;
+}
+
+.details-container .btn-container .btn {
+  font-size: 14px;
+}
+.details-container .btn-container span {
+  font-size: 24px;
+}

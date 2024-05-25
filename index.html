@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>École de formation</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav-container"></nav>
+    <main id="main">
+      <header id="header-container"></header>
+      <section class="hero">
+        <div class="hero-img">
+          <img src="./imgs/heroBackground.png" alt="" />
+        </div>
+        <div class="hero-content">
+          <h1>Empowering Your Future Through Education</h1>
+          <p>
+            Unlock your potential. Take career-focused training that fits your
+            schedule. Gain the skills and knowledge to confidently navigate
+            today's job market.
+          </p>
+          <button class="CTA-btn">Explore Our Courses</button>
+        </div>
+      </section>
+      <section class="main-section">
+        <section class="formations">
+          <h3>Courses</h3>
+          <div class="container">
+            <div class="formation">
+              <img src="imgs/informtic.jpeg" alt="marketing" />
+              <div class="formation-info">
+                <h4>Web Development course</h4>
+                <p>
+                  Install the plugin and convert your designs to a responsive
+                  site.
+                </p>
+                <div class="btns">
+                  <a href="./informatics.html">
+                    <button class="start-btn">Get Started</button>
+                  </a>
+                  <p>99.99$</p>
+                </div>
+              </div>
+            </div>
+            <div class="formation">
+              <img src="imgs/marketing.png" alt="informtic" />
+              <div class="formation-info">
+                <h4>Marketing Fundamentals</h4>
+                <p>Description de la formation 2...</p>
+                <div class="btns">
+                  <a href="./marketing.html">
+                    <button class="start-btn">Get Started</button>
+                  </a>
+                  <p>99.99$</p>
+                </div>
+              </div>
+            </div>
+            <div class="formation">
+              <img src="imgs/management.jpeg" alt="management" />
+              <div class="formation-info">
+                <h4>Management full Course</h4>
+                <p>Description de la formation 3...</p>
+                <div class="btns">
+                  <a href="./managements.html">
+                    <button class="start-btn">Get Started</button>
+                  </a>
+                  <p>99.99$</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="promo">
+          <h3>promo</h3>
+          <div class="container">
+            <div class="promotion">
+              <div class="img">
+                <img src="imgs/promotion1.png" alt="management" />
+              </div>
+              <div class="promotion-info">
+                <h4>Learn Together, Save Together</h4>
+                <p>Get 20% off when you enroll with 2 friends!"</p>
+              </div>
+            </div>
+            <div class="promotion">
+              <div class="img">
+                <img src="imgs/promotion2.jpeg" alt="management" />
+              </div>
+              <div class="promotion-info">
+                <h4>Get the Full Course! Save 30%</h4>
+                <p>Don't Delay! Grab the Full Course & Save Big (30% Off)</p>
+              </div>
+            </div>
+            <div class="promotion">
+              <div class="img">
+                <img src="imgs/promotion3.jpeg" alt="management" />
+              </div>
+              <div class="promotion-info">
+                <h4>Refer 10 Friends, Get 10%</h4>
+                <p>Get 10% Off! Help Spread the Knowledge</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="comments-section">
+        <div class="comment-form">
+          <h3>Add a comment</h3>
+          <form id="commentForm" method="post">
+            <input
+              type="email"
+              id="email"
+              placeholder="E-mail"
+              required
+            /><br />
+            <textarea
+              id="comment"
+              placeholder="Commment...."
+              required
+            ></textarea
+            ><br />
+            <button type="submit" class="start-btn full">Envoyer</button>
+          </form>
+        </div>
+        <div class="comments-place">
+          <h3>Comments</h3>
+          <div id="comments-area">
+            <div>
+              <img src="imgs/profile-icon-comments.png" alt="" />
+              <span>
+                <h5>almrftcom@gamil.com</h5>
+                <p>
+                  the web dev course was on of the best courses that I have ever
+                  taken
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/OpenCloseNav.js"></script>
+    <script src="js /comments.js"></script>
+    <script src="js/getComments.js"></script>
+    <script src="./js/getComponents.js"></script>
+  </body>
+</html>
