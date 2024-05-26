@@ -201,7 +201,7 @@ body {
   margin-top: 90px;
   display: flex;
   /* justify-content: space-between; */
-  gap: 40px;
+  /* gap: 40px; */
   padding: 20px 0px;
   background-color: #001f41;
 }
@@ -209,7 +209,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 40px;
+  padding: 0px 40px;
   width: 100%;
 }
 .spCourse-content > div {
