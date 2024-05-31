@@ -22,15 +22,14 @@ async function fetchComments() {
 
         // Loop through each comment and build the HTML
         commentList.reverse().forEach((comment) => {
-          commentsHTML += `<div>
-            <span>
-              <div>
-                <img src="./assets/profile-icon-comments.png" alt="Profile Icon" />
-                <h5>${comment.email}</h5>
+          commentsHTML += `
+          <div class="comment">
+              <div class="image">
+                <img src="./imgs/profile-icon-comments.png" alt="" />
               </div>
+              <h5>${comment.email}</h5>
               <p>${comment.COMMENT}</p>
-            </span>
-          </div>`;
+            </div>`;
         });
 
         // Set the built HTML to the comments container
